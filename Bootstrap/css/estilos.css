@@ -1,5 +1,4 @@
-.cinema-body {
-  background: url(../img/fondo.jpg);
+.Blog-body {
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8,18 +7,14 @@
   height: 100%;
 }
 
-.navbar-inverse {
-  background-color: rgba(8, 45, 94, 0.95);
+.navbar{
+  background-color: rgb(35, 116, 117);
   min-height: 10%;
   border: none;
 }
 
 .logo-img {
   width: 100px;
-}
-
-.container-fluid {
-  margin-top: 73px;
 }
 
 .jumbotron {
@@ -33,10 +28,7 @@
   margin-bottom: 0px;
 }
 
-.jumbotron-img {
-  width: 220px;
-  margin-top: 20px;
-}
+
 
 .jumbotron-text {
   font-size: 16px;
@@ -45,7 +37,8 @@
 }
 
 .redes-sociales {
-  margin-top: 30px;
+
+  float: right;
 }
 
 .img-social {
