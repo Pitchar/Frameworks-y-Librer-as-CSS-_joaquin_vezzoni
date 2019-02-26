@@ -9,13 +9,20 @@
 
 .navbar{
   background-color: rgb(35, 116, 117);
-  min-height: 10%;
+  min-height: 20%;
   border: none;
 }
 
 .logo-img {
   width: 100px;
 }
+
+.nav-scroller {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
 
 .jumbotron {
   background: url(../img/cartelera.jpg);
