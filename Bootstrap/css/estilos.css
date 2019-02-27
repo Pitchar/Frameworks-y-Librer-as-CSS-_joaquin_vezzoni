@@ -7,7 +7,7 @@
   height: 100%;
 }
 
-.navbar{
+header{
   background-color: rgb(35, 116, 117);
   min-height: 20%;
   border: none;
@@ -15,17 +15,15 @@
 
 .logo-img {
   width: 100px;
+float: left;
 }
 
-.nav-scroller {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
+h2{
+text-align: center;
 }
-
 
 .jumbotron {
-  background: url(../img/cartelera.jpg);
+  background-color: orange;
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -53,25 +51,6 @@
   height: 40px;
 }
 
-.img-movies {
-  height: 260px;
-  padding: 6px;
-  margin-top: 22px;
-}
-
-.movie-title {
-  color: #FFFFFF;
-}
-
-.welcome-title {
-  color: #FFFFFF;
-  margin-right: 10px;
-}
-
-.titulo-cartelera {
-  min-height: 35px;
-  background-color: rgba(8, 45, 94, 0.95);
-}
 
 .titulo-text {
   font-size: 18px;
