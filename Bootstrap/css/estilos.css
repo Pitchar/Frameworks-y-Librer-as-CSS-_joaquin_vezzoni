@@ -1,3 +1,6 @@
+body{
+ background-color:#000000;
+}
 
 header{
   background-color: rgb(35, 116, 117);
@@ -5,9 +8,7 @@ header{
   background-image: url("../img/Recital.jpg");
   background-position: bottom;
   border: none;
-  min-height: 40vh;
-  width: 1349px;
-  height: 121.1px;
+padding: 55px;
 }
 
 header h1{display: inline-block;
@@ -60,48 +61,47 @@ vertical-align: bottom;
 
 textarea{width: 100%; margin: auto;}
 
+footer{
+background-color: black;
+}
 
 
+@media (max-width: 770px)
+{
 
-@media (max-width: 770px) {
+#logo{width: 100px; margin:auto;
+display: block;
+text-align: center;
+ }
+
+#a{ order: 1;
+}
+
+#b{
+order: 2;
+}
+
+#c{
+order: 3;
+}
   h2 {
     font-size: 22px;
+    text-align: center;
   }
 
-  .titulo-text {
+  .card-text {
     font-size: 15px;
   }
 
-  .right-column {
-    display: none;
-  }
-
-  .movies-row {
-    padding-left: 0px;
-    padding-right: 0px;
-    min-height: 400px;
-  }
 
   .container-fluid{
     margin-top: 60px;
   }
 
-  .movies-column {
-    min-height: 230px;
-  }
 
   .jumbotron {
     min-height: 380px;
   }
 
-  .jumbotron-img {
-    width: 150px;
-    margin-top: 20px;
-  }
 
-  .img-movies {
-    height: 133px;
-    padding: 6px;
-    margin-top: 22px;
-  }
 }
