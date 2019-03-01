@@ -11,16 +11,16 @@
     <title>Blog de Música.</title>
 
   </head>
+
   <body class="Blog-body">
     <header>
   <div class="row">
     <div class='col-xs-8 col-sm-8 col-md-8 col-lg-12 text-center'>
-      <img class='logo-img' src='img/logo.png'/>
-      <div class='text-center'>
-     <h2 class='text-uppercase welcome-title '>Mi Blog de Musica</h2>
-</div>
+      <img id="logo" class='logo-img' src='img/logo.png'/>
+     <h2 id="titulo" class='text-uppercase welcome-title '>Mi Blog de Musica</h2>
 
-    <div class='redes-sociales'>
+
+    <div class="redes-sociales">
        <a href="https://plus.google.com/u/4/" target="_blank"> <img class="img-social" src="img/ig.png"/></a>
        <a href="https://www.facebook.com/joaco.vezzoni" target="_blank"> <img class="img-social" src="img/fb.png"/></a>
        <a href="https://www.instagram.com/joaquinvs/" target="_blank"> <img class="img-social" src="img/tt.png" /></a>
@@ -30,61 +30,78 @@
 </div>
 </header>
 
-<div class='container-fluid'>
-    <div class='jumbotron'>
-<div class="row">
-  <div class='col-xs-8 col-sm-8 col-md-8 col-lg-12 text-center'>
-<nav class="nav d-flex justify-content-between">
-  <a href="#">World</a>
-   <a href="#">World</a>
-    <a  href="#">World</a>
-     <a  href="#">World</a>
-      <a  href="#">World</a>
-       <a  href="#">World</a>
-</nav>
-     </div>
-</div>
+      <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link active" href="#">Inicio</a>
+      <a class="nav-item nav-link" href="#">Artistas</a>
+      <a class="nav-item nav-link" href="#">Grupos</a>
+      <a class="nav-item nav-link" href="#">Top 10</a>
+      <a class="nav-item nav-link" href="#">Letras</a>
+      <a class="nav-item nav-link" href="#">Acordes</a>
+      </nav>
 
-<div class="row">
-  <div class="col col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-          <div class="card">
-            <div class="card-body d-flex flex-column align-items-start">
+
+      <div class='container-fluid'>
+          <div class='jumbotron'>
+
+          <div class="col-md-8">
+          <div class="card mb-4">
+
+        <div class="row">
+          <div class="col-sm-6 texto">
+            <h2 class="card-title">
               <strong>Red Hot Chili Peppers</strong>
+            </h2>
               <h3>
                 <a class="text-dark" href="#">Sus albunes </a>
               </h3>
               <div class="mb-1 text-muted">27 de febrero</div>
               <p class="card-text mb-auto">text belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext below .</p>
-              <a href="#">Continuar leyendo</a>
+                <a href="#">Continuar leyendo</a>
+              </div>
+              <div class="col-sm-6 portada"><img class="img-fluid" src="img/rhtp.jpg">
             </div>
+
+          <div class="col-md-12">
+          <br>
+          <h3> deja tu comentario</h3>
+          <textarea rows="4" >
+          comenta sobre este album
+          </textarea>
           </div>
-        </div>
-        <div class="col col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <div class="card">
-              <strong>U2</strong>
+          </div>
+          </div>
+
+          <div class="card mb-4">
+
+        <div class="row">
+          <div class="col-sm-6 texto">
+            <h2 class="card-title">
+              <strong>Red Hot Chili Peppers</strong>
+            </h2>
               <h3>
                 <a class="text-dark" href="#">Sus albunes </a>
               </h3>
-              <div class="mb-1 text-muted">2 de marzo</div>
-              <p class="card-text mb-auto"> text below text belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext below.</p>
-              <a href="#">Continuar leyendo</a>
+              <div class="mb-1 text-muted">27 de febrero</div>
+              <p class="card-text mb-auto">text belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext belowtext below .</p>
+                <a href="#">Continuar leyendo</a>
+              </div>
+              <div class="col-sm-6 portada"><img class="img-fluid" src="img/articulo2.jpg">
             </div>
+
+          <div class="col-md-12">
+          <br>
+          <h3> deja tu comentario</h3>
+          <textarea rows="4" >
+          comenta sobre este album
+          </textarea>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+          </div>
+          </div>
 
 
 
 
 
-
-
-
-</div>
-</div>
 
 
 
@@ -94,10 +111,7 @@
 
 
 
-
-
-
-
-
+</div>
+</div>
   </body>
 </html>

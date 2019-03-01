@@ -1,0 +1,56 @@
+body{  background-color:#eee;}
+
+#principal{
+padding-top: 10vh;
+}
+
+
+header{
+  min-height: 40vh;
+  background-color: skyblue;
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+background-position: bottom;
+padding:100px ;
+}
+
+header h1{display: inline-block; color: white; vertical-align: bottom;}
+.logo{width: 60px; height: auto; display: inline-block;}
+
+#redes{ 
+  width: auto;
+  display:block; 
+  position: inherit;
+  right: 10px;
+  bottom: 10px;
+  background-color: red;
+}
+#redes .icon-social {width: 30px; height: auto; float: right; margin: 10px;}
+
+.list-group {
+   width: 100%;
+}
+
+.card{ padding: 1em;}
+.nav{    background-color: #333;
+    border: 2px solid skyblue;}
+
+.nav-link {border-right: 1px solid skyblue; color: #fff;}
+
+textarea{width: 100%; margin: auto;}
+
+   /*******************************
+   mediaquerys
+   *******************************/
+
+@media screen and (max-width: 600px){
+
+body{  background-color:#222;}
+.logo{width: 100px; margin:auto; display: block; }
+header h1{font-size: 1.9rem; text-align: center; }
+#redes { background-color: transparent; width: auto; display: block;padding-left: 27%;  height: 30px;}
+#redes .icon-social { width: 30px;    height: auto; float: none;   margin: auto;    text-align: center;right: auto; }
+.nav-link {width: 30%; border-bottom: 1px solid skyblue;}
+.texto{order: 2;}
+.portada{order: 1;}
+}
