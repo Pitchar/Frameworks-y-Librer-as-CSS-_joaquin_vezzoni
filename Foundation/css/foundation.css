@@ -353,7 +353,7 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #2ba6cb;
+  color: #080808;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
@@ -3096,7 +3096,7 @@ a.button:hover, a.button:focus {
     background-color: #def2f8;
     color: #0a0a0a; }
   .callout.secondary {
-    background-color: #fcfcfc;
+    background-color: #ab265f;
     color: #0a0a0a; }
   .callout.alert {
     background-color: #fcd6d6;
