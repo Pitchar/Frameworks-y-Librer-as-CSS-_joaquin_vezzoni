@@ -1,0 +1,10 @@
+.banner {
+  background: url('../img/pizza.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.callout{
+background-color: rgb(48,189,80,0.5);
+
+}
