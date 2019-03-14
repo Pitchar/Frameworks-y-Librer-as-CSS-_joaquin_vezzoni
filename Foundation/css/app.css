@@ -4,14 +4,23 @@
   background-attachment: fixed;
 }
 
-.callout{
-background-color: rgb(48,189,80,0.5);
+#fondo{
+  background-color: rgb(48,189,80,0.5);
+
 }
 
-h1{
-color: white;
+.opinion{
+text-align:left;
 }
 
-h5{
-color: white;
+#encabezado{
+background-color: rgb(249, 231, 159);
+}
+
+#primera{
+background-color: rgb(249, 231, 159);
+}
+
+#segunda{
+background-color: rgb(249, 231, 159);
 }
